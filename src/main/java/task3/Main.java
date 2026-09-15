@@ -60,4 +60,32 @@ public class Main {
                 .mapToLong(Integer::longValue)
                 .sum();
     }
+        /*
+streamTime: sum = 498774528; time = 10.76 ms
+ParallelStreamTime: sum = 498774528; time = 1.52 ms
+Speedup: 7.10x
+Sums equal: true
+------
+streamTime: sum = 498774528; time = 7.90 ms
+ParallelStreamTime: sum = 498774528; time = 1.21 ms
+Speedup: 6.51x
+Sums equal: true
+------
+streamTime: sum = 498774528; time = 8.67 ms
+ParallelStreamTime: sum = 498774528; time = 1.44 ms
+Speedup: 6.00x
+Sums equal: true
+------
+streamTime: sum = 498774528; time = 8.83 ms
+ParallelStreamTime: sum = 498774528; time = 1.69 ms
+Speedup: 5.24x
+Sums equal: true
+------
+streamTime: sum = 498774528; time = 8.45 ms
+ParallelStreamTime: sum = 498774528; time = 2.20 ms
+Speedup: 3.85x
+Sums equal: true
+------
+Cores: 16
+     */
 }
